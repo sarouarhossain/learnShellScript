@@ -1,0 +1,40 @@
+==> box - operating system image
+command:=> vagrant box add USER/BOX
+
+
+** creating a varant project
+
+1. Vagrant project = Folder with a VagrantFile
+	
+	1. mkdir vm1
+	2. cd vm1
+
+  ** then initialize the Vagrant project
+
+   3. vagrant init "image name"
+   4. vagrant up/ vagrant up [VM_NAME]
+
+  ** login to a particular virtual machine// connect to the virtual machine
+  	 vagrant ssh [VM_NAME]
+
+  ** to stop the Virtual machine
+  	 vagrant halt [VM]
+  	 vagrant reload [VM]
+
+  ** other important commands
+
+  	 vagrant suspend [VM]
+  	 vagrant resume [VM]
+  	 vagrant destroy [VM]
+  	 vagrant
+
+  ** to see all the virtual machine running
+  	 vagrant status
+  	 
+
+
+
+
+
+
+

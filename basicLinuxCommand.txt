@@ -1,0 +1,15 @@
+# to unzip a file
+unzip -d "create a directory (name)" "zipfile name"
+
+# show permissions of files
+ls -l
+
+# home directory
+cd ~   "here ~ represents the home directory"
+
+# parent directory soho create korte chaile
+$mkdir -p /tmp/amrood/test
+
+# change password
+passwd   ---> it will store the new password in etc/shadow
+

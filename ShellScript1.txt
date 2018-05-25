@@ -1,0 +1,30 @@
+=>  #! -> called Shebang
+
+** chmod 
+	r -> 4
+	w -> 2
+	x -> 1
+
+# how to execute a shell script
+	./filename.sh -> here '.' means this directory
+
+# to show detail about a command
+	type 'command name' / type -a 'command name'
+	type echo / type -a echo
+
+# get help
+	help "command name"
+	man "command name"
+
+# variable is always uppercase in shellscript
+
+# to see id and user 
+id -u
+id -u -n
+id
+
+man id
+
+# another option
+type -a whoami
+
