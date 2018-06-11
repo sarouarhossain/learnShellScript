@@ -1,0 +1,6 @@
+if [[ "${UID}" -eq 0]]
+then
+	echo "something1"
+else 
+	echo "something2"
+fi

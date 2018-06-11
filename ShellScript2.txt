@@ -1,0 +1,15 @@
+* UID is read only
+type -a id
+man id
+whoami
+echo "your UID is ${UID}"
+USER_NAME=$(id -un)
+USER_NAME=`id -un` // same
+echo "your user name is ${USER_NAME}"
+
+==> root user e jaite hole
+su -> command
+
+
+
+

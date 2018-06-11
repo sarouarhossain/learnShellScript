@@ -1,0 +1,10 @@
+===> read from cmd
+read -p 'Type Something: ' THING
+echo ${THING}
+
+===> to see all process running
+ps -ef
+
+===> add a new user
+sudo useradd "USER name"
+
